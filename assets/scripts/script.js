@@ -13,4 +13,4 @@ menuBtn.onclick = function () {
     sideNav.style.right = '-250px'
     menu.src = 'assets/images/menu.png'
   }
-};
+}
