@@ -214,9 +214,8 @@ nav ul li a {
   text-align: initial;
 }
 
-@media screen and (max-width: 768px){
-  
-  .title-text h1{
+@media screen and (max-width: 768px) {
+  .title-text h1 {
     font-size: 35px;
   }
 
