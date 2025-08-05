@@ -109,6 +109,11 @@ nav ul li a {
   cursor: pointer;
 }
 
+.features-img img {
+  width: 70%;
+  border-radius: 10px;
+}
+
 #menu-btn img {
   width: 20px;
   margin-top: 15px;
@@ -146,7 +151,7 @@ nav ul li a {
 }
 
 .title-text p::after {
-  content: '';
+  content: "";
   width: 50px;
   height: 35px;
   background: linear-gradient(#019587, #fff);
@@ -181,11 +186,6 @@ nav ul li a {
   margin: auto;
 }
 
-.features-img img {
-  width: 70%;
-  border-radius: 10px;
-}
-
 .features h1 {
   text-align: left;
   margin-bottom: 10px;
@@ -215,6 +215,7 @@ nav ul li a {
 }
 
 @media screen and (max-width: 768px){
+  
   .title-text h1{
     font-size: 35px;
   }
