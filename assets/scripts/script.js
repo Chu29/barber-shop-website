@@ -1,6 +1,6 @@
 "use strict";
-let menuBtn = document.getElementById("menuBtn");
-let sideNav = document.getElementById("sideNav");
+let menuBtn = document.getElementById("menu-btn");
+let sideNav = document.getElementById("side-nav");
 let menu = document.getElementById("menu");
 
 sideNav.style.right = "-250px";
