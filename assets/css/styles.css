@@ -8,7 +8,8 @@
 }
 
 #banner {
-  background-image: linear-gradient(#00000080, #009688),
+  background-image:
+    linear-gradient(#00000080, #009688),
     url("../images/banner.jpg");
   background-size: cover;
   background-position: center;
@@ -30,7 +31,7 @@
 
 .banner-text h1 {
   font-size: 130px;
-  font-family: Kaushan Script, cursive;
+  font-family: "Kaushan Script", cursive;
 }
 
 .banner-text p {
