@@ -76,13 +76,14 @@
 }
 
 #sideNav {
-  right: 0;
+  right: -250px;
   top: 0;
   position: fixed;
   width: 250px;
   height: 100vh;
   background: #009688;
   z-index: 2;
+  transition: 0.5s;
 }
 
 nav ul li {
