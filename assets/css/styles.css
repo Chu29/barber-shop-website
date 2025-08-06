@@ -349,6 +349,7 @@ hr {
   border-radius: 5px;
   box-shadow: 0 10px 20px 3px #00968814;
   cursor: pointer;
+  transition: transform .5s;
 }
 
 .testimonial-col p {
@@ -368,4 +369,8 @@ hr {
 
 .user-info small {
   color: #009688;
+}
+
+.testimonial-col:hover {
+  transform: translateY(-7px);
 }
