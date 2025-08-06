@@ -81,6 +81,12 @@ nav ul li a {
   width: 100%;
 }
 
+.social-links p a{
+  text-decoration: none;
+  color: #009688;
+  font-weight: bold;
+}
+
 .banner-btn a:hover {
   color: #000;
 }
@@ -455,12 +461,6 @@ hr {
 .social-links p {
   font-size: 12px;
   margin-top: 20px;
-}
-
-.social-links p a{
-  text-decoration: none;
-  color: #009688;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
