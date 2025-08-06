@@ -404,7 +404,8 @@ hr {
   flex-wrap: wrap;
 }
 
-.footer-left, .footer-right {
+.footer-left,
+.footer-right {
   flex-basis: 45%;
   padding: 10px;
   margin-bottom: 20px;
@@ -422,7 +423,8 @@ hr {
   line-height: 35px;
 }
 
-.footer-left .fa, .footer-right .fa {
+.footer-left .fa,
+.footer-right .fa {
   font-size: 20px;
   color: #009688;
   margin: 10px;
