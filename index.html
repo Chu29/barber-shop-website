@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <title>Barber Shop Website</title>
 </head>
 
@@ -27,11 +28,11 @@
   <section id="side-nav">
     <nav>
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">FEATURES</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">TESTIMONIALS</a></li>
-        <li><a href="#">MEET US</a></li>
+        <li><a href="#banner">HOME</a></li>
+        <li><a href="#feature">FEATURES</a></li>
+        <li><a href="#service">SERVICES</a></li>
+        <li><a href="#testimonial">TESTIMONIALS</a></li>
+        <li><a href="#footer">MEET US</a></li>
       </ul>
     </nav>
   </section>
@@ -230,7 +231,15 @@
     </div>
   </section>
 
-  <script src="assets/scripts/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.0/dist/smooth-scroll.min.js"></script>
+  <script>
+    const scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 1000,
+      speedAsDuration: true
+    })
+  </script>
+  <script src="assets/scripts/script.js">
+  </script>
 </body>
 
 </html>
