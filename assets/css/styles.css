@@ -81,7 +81,7 @@ nav ul li a {
   width: 100%;
 }
 
-.social-links p a{
+.social-links p a {
   text-decoration: none;
   color: #009688;
   font-weight: bold;
@@ -464,7 +464,7 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-  .footer-left, 
+  .footer-left,
   .footer-right {
     flex-basis: 100%;
     font-size: 14px;
