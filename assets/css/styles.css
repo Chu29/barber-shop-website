@@ -119,6 +119,12 @@ nav ul li a {
   border-radius: 7px;
 }
 
+.user img {
+  width: 40px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
 #menu-btn img {
   width: 20px;
   margin-top: 15px;
@@ -353,12 +359,6 @@ hr {
   display: flex;
   align-items: center;
   margin: 20px 0;
-}
-
-.user img {
-  width: 40px;
-  margin-right: 20px;
-  border-radius: 3px;
 }
 
 .user-info .fa {
